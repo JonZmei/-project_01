@@ -23,3 +23,5 @@ total_time = sum([my_favorite_songs_dict[song] for song in random_songs])
 total_time_formatted = str(datetime.timedelta(minutes=total_time))
 
 print("Три песни звучат {} минут.".format(total_time_formatted))
+
+# Отличное решение
