@@ -11,3 +11,8 @@ print(quarter_of(2)) # 1
 print(quarter_of(6)) # 2
 print(quarter_of(11)) # 4
 print(quarter_of(13)) # None
+
+# Хорошо, вот немного иная запись
+def quarter_of(month):
+    q = {1: (1,3), 2:(4,6), 3:(7,9), 4:(10,12)}
+    return [k for k,v in q.items() if v[0] <= month <= v[1]][0]
