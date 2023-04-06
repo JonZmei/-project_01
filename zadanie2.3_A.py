@@ -16,3 +16,5 @@ print(switch_it_up(1))
 print(switch_it_up(3)) 
 print(switch_it_up(7)) 
 print(switch_it_up(10)) 
+
+# Супер
